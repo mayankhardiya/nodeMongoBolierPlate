@@ -1,0 +1,43 @@
+{
+  "name": "nodejs-backend-boilerplate",
+  "version": "1.0.0",
+  "description": "A custom node.js boilerplate with register & login, featured on JWT authentication, role base access control, winston logging, mongoDB and simple use 🙂",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev:start": " set NODE_ENV=development && nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChunHoLum/node-jwt-starter.git"
+  },
+  "keywords": [
+    "Node",
+    "JWT",
+    "Winston",
+    "MongoDB",
+    "Boilerplate"
+  ],
+  "author": "Lum Chun Ho",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ChunHoLum/node-jwt-starter/issues"
+  },
+  "homepage": "https://github.com/ChunHoLum/node-jwt-starter#readme",
+  "dependencies": {
+    "accesscontrol": "^2.2.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.9.14",
+    "winston": "^3.2.1",
+    "winston-mongodb": "^5.0.1"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.2"
+  }
+}
